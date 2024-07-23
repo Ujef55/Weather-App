@@ -33,7 +33,7 @@ async function getWeather(city) {
     temperature.innerHTML = `${Math.round(weatherData.main.temp - 273.15)}°C`;
     temperatureDescription.innerHTML = `${weatherData.weather[0].description}`;
     humidityPercentage.innerHTML = `${weatherData.main.humidity}%`;
-    windSpeed.innerHTML = `${Math.round((weatherData.wind['speed'] / 10) * 100)}%`;
+    windSpeed.innerHTML = `${Math.round((weatherData.wind['speed'] / 10) * 100)}km/h`;
     cityTitle.innerHTML = `${weatherData.name}`;
     input.value = '';
 
