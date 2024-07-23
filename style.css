@@ -131,7 +131,7 @@ body {
 
 .location-not-found {
   margin-top: 20px;
-  display: block;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;

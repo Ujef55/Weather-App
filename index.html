@@ -15,7 +15,10 @@
       <div class="header">
         <div class="search-box">
           <input type="text" placeholder="Enter Your Name" class="input-box" />
-          <button class="fa-solid fa-magnifying-glass"></button>
+          <button
+            class="fa-solid fa-magnifying-glass"
+            id="search-button"
+          ></button>
         </div>
 
         <div class="location-not-found">
@@ -24,10 +27,10 @@
         </div>
       </div>
       <div class="weather-body">
-        <img src="assets/cloud.png" alt="cloud image" />
+        <img src="assets/cloud.png" alt="cloud image" id="weather-image" />
 
         <div class="weather-box">
-          <p class="temperature">0 <sup>°C</sup></p>
+          <p class="temperature">0 <sup id="cel-symbol">°C</sup></p>
           <p class="description">light rain</p>
         </div>
 
@@ -50,5 +53,7 @@
         </div>
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
