@@ -17,7 +17,7 @@ body {
 
 .container {
   width: 400px;
-  height: min-content;
+  height: fit-content;
   background-color: #fff;
   border-radius: 12px;
   padding: 28px;
@@ -64,16 +64,21 @@ body {
   align-items: center;
   flex-direction: column;
   margin-block: 20px;
-  display: block;
+  display: none;
 }
 
 .weather-body img {
   width: 60%;
+  margin-left: 65px;
 }
 
 .weather-box {
   margin-block: 20px;
   text-align: center;
+}
+
+.weather-box .city-title {
+  padding: 20px;
 }
 
 .weather-box .temperature {
@@ -90,6 +95,7 @@ body {
 
 .weather-box .description {
   font-size: 20px;
+  padding: 20px;
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -131,6 +137,7 @@ body {
 
 .location-not-found {
   margin-top: 20px;
+  margin-left: 35px;
   display: none;
   align-items: center;
   justify-content: center;
